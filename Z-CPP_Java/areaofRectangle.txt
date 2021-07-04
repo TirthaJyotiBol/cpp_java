@@ -1,0 +1,27 @@
+Q.program to find the area of the rectangle
+
+Consstraints : 1<=L<=10^9
+               1<=B<=10^9
+
+Input Format  : 2 space seperated integer L and B
+Output Format : single number which is the area of the rectangle
+
+sample input  : 3 4
+sample output : 12
+
+
+
+/*                  NOTE:
+ since range is from 1 to 10^9 thus for highest test case (10^9)*(10^9) =  10^(18) 
+the range is greater than the int range,hense to convert it into long long int we use 1*LL
+*/ 
+
+code-> 
+#include<bits/stdc++.h>                        
+using namespace std;
+int main(){
+    int a,b;
+    cin>>a>>b;
+    int area =1* 1LL* a*b;           
+    cout<<area;
+}
